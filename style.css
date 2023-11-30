@@ -431,9 +431,8 @@ article .icon {
 }
 .grid-container {
   display: grid;
-  /* 根据屏幕大小调整列数 */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px; /* 控制项目之间的间距 */
+  gap: 20px; 
 }
 .project-img {
   border-radius: 2rem;
