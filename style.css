@@ -422,7 +422,7 @@ article .icon {
   width: 85%; 
   height: 65%;
   margin: 0 auto;
-  /* margin-bottom: 2rem; */
+  margin-bottom: 8rem;
   overflow: auto;
 }
 .color-container {
