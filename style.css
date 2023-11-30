@@ -417,7 +417,14 @@ article .icon {
 #projects {
   position: relative;
 }
-
+#projects1 {
+  position: relative;
+  width: 80%; 
+  height: 60%;
+  margin: 0 auto;
+  /* margin-bottom: 2rem; */
+  overflow: auto;
+}
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
