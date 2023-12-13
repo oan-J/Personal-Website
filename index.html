@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Jiayi Liu</div>
+    <div>
+      <ul class="nav-links">
+        <!-- <li><a href="#about">About</a></li> -->
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <!-- <li><a href="#contact">Contact</a></li> -->
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Jiayi Liu</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <!-- <li><a href="#about" onclick="toggleMenu()">About</a></li> -->
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <!-- <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> -->
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="profile-left">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Profile picture"/>
+      </div>
+      <h1 class="title">Jiayi Liu</h1>
+      <!-- <p class="section__text__p2">Senior Student</p> -->
+      <p class="section__text__p3"> <a href="https://www.fudan.edu.cn" class="fudan-link" target="_blank">Fudan
+          University</a>, Shanghai. P.R.China</p>
+      <p class="section__text__p4"> <a href="https://cs.fudan.edu.cn/" class="fudan-link" target="_blank">School of
+          Computer Science</a></p>
+      <div class="btn-container">
+        <!-- <button class="btn btn-color-2" onclick="location.href='./#contact'">
+          Contact Info
+        </button> -->
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p>Joanna [dot] JiayiLiu [at] gmail [dot] com</a></p>
+      </div>
+        <img src="./assets/github.png" alt="My Github profile" class="icon github"
+          onclick="location.href='https://github.com/oan-J'" />
+      </div>
+    </div>
+    <div class="profile-right">
+      <div class="section__text">
+        <p class="section__text__p5">
+          I am a senior student at School of Computer Science,
+          <a href="https://cs.fudan.edu.cn/" target="_blank" class="fudan-link">Fudan University</a>.
+          I am fortunate to be advised by Dr. Siming Chen of
+          <a href="https://fduvis.net/" target="_blank" class="fudan-link">FDU-VIS</a> lab from
+          School of Data Science,
+          <a href="https://sds.fudan.edu.cn/" target="_blank" class="fudan-link">Fudan University</a>.
+          I was advised by Dr. Yalong Yang from
+          <a href="https://www.ic.gatech.edu/" target="_blank" class="fudan-link">School of Interactive Computing</a>,
+          <a href="https://www.gatech.edu/" target="_blank" class="fudan-link">Georgia Tech</a>.
+        </p>
+        <p class="section__text__p5">
+          My research interests encompass a diverse array of topics, with a primary focus on
+          <span class="blue-highlight">Data Visualization</span>,
+          <span class="blue-highlight">Human-Data Collaboration</span>,
+          <span class="blue-highlight">Human-AI Collaboration</span>,
+          <span class="blue-highlight">Human-Computer Interaction</span>, and
+          <span class="blue-highlight">Virtual/Augmented Reality (VR/AR)</span>.
+        </p>
+        <div class="about-containers-profile">
+            <div class="profile-details-container">
+              <img src="./assets/award.png" alt="Award icon" class="icon" />
+              <h3>Award</h3>
+              <p>2022-2023<br>Third class scholarship for outstanding undergraduate students of Fudan University</p>
+            </div>
+            <div class="profile-details-container">
+              <img src="./assets/award.png" alt="Award icon" class="icon" />
+              <h3>Award</h3>
+              <p>2022-2023<br>Second prize of the 18th "Citi Cup" Financial Innovation Application Competition</p>
+            </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- <section id="projects"> -->
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <section id="projects1">
+      <div class="project-details-container">
+        <div class="grid-container">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/proj-brain.png" alt="Brain Surface Reconstruction" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Brain Surface Reconstruction</h2>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/proj-3dFDEB.png" alt="3DFDEB" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">3D FDEB on brain data</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/oan-J/3D-FDEB'">
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/proj-mine.png" alt="Project 1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Data Mining</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/oan-J/Data-Mining/tree/main'">
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/proj-dsNerf.png" alt="DS-Nerf" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">DS-Nerf on personalized data</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/oan-J/Nerf_Personalized_Data'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1CY0blVsoPt5J9Q9DBUxrrQMu6-l4y2xL/view'">
+                Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/proj-retina.png" alt="Retina Bird Detection" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">RetinaNet Training and Testing on VOC Dataset</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/oan-J/retinanet.pytorch/tree/master'">
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/proj-2layer-loss.png" alt="Two-layer-Neural-Network-Classifier loss"
+                class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Two layer Neural Network Classifier</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/oan-J/Two-layer-Neural-Network-Classifier'">
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" /> -->
+  <!-- </section> -->
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Skills</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML/CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>D3.js</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Three.js</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>C/C++</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Research/Intern</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>3D Data Visualization</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Computer Vision</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>LLM Finetuning</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Algorithm Performance Improvement</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Autonomous Driving Data Mining</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Steganography & Watermarking</h3>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" /> -->
+  </section>
+
+  <!-- <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p>Joanna [dot] JiayiLiu [at] gmail [dot] com</a></p>
+      </div>
+    </div>
+  </section> -->
+  <!-- <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </footer> -->
+  <script src="script.js"></script>
+</body>
+
+</html>
