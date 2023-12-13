@@ -440,11 +440,11 @@ article .icon {
 }
 
 /* PROJECTS SECTION */
-
+/*
 #projects {
   position: relative;
 }
-
+*/
 .project-details-container {
   display: flex;
   justify-content: center;
