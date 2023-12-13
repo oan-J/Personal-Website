@@ -155,7 +155,13 @@ section {
   box-sizing: border-box;
   min-height: fit-content;
 }
-
+.custom-section {
+  padding-top: 0;
+  height: auto;
+  margin: 0;
+  box-sizing: content-box;
+  min-height: initial;
+}
 .section-container {
   display: flex;
 }
